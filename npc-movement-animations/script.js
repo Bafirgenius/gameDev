@@ -23,7 +23,7 @@ class Enemy {
     this.flapSpeed = Math.floor(Math.random() * 3 + 1);  // 1-4
   }
   update() {
-    this.x += Math.random() * 15 - 7.5;``
+    this.x += Math.random() * 15 - 7.5;
     this.y += Math.random() * 10 - 5;
     // animate sprite
     if (gameFrame % this.flapSpeed === 0) {
